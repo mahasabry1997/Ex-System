@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d52a7a470b4349319327ac3e09368b7a" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.Course" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Department" Width="1.5" PointX="10.25" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Exam" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Instructor" Width="1.5" PointX="8" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Ques_Choices" Width="1.5" PointX="5.25" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Question" Width="1.5" PointX="3" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Std_exam" Width="1.5" PointX="5.25" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Std_Grades" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Student" Width="1.5" PointX="12.5" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.sysdiagram" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Topic" Width="1.5" PointX="3" PointY="14.75" IsExpanded="true" />
+        <AssociationConnector Association="Model.FK_Exam_Course" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Question_Course" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Question_Course1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Topic_Course" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Department_Instructor1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Instructor_Department1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Student_Department" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Std_exam_Exam" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Std_Grades_Exam" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Ques_Choices_Question" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Std_exam_Question" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Std_exam_Student" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Std_Grades_Student" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.Crs_Ins" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.Std_course" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
